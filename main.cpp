@@ -2,7 +2,7 @@
 #include <thread>
 #include <chrono>
 #include <atomic>
-#define _GNU_SOURCE
+// #define _GNU_SOURCE
 #include <sched.h>
 #include<bits/stdc++.h>
 
