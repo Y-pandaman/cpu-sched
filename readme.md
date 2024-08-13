@@ -12,7 +12,11 @@
 
 ## 线程内核分配
 
-- 使用CPU亲和力函数`sched_setaffinity()`,看示例代码
+- 使用CPU亲和力函数`sched_setaffinity()`,看示例代码。
+
+- 如图，将两个线程分别分配到7和8上。
+
+  ![example](assets/example.png)
 
 ## 注意
 

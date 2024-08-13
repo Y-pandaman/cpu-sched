@@ -29,8 +29,8 @@ void thread_function(int thread_id, int cpu_id) {
 }
 
 int main() {
-    std::thread t1(thread_function, 1, 6);  // 线程1分配到CPU核心0
-    std::thread t2(thread_function, 2, 7);  // 线程2分配到CPU核心1
+    std::thread t1(thread_function, 1, 6);  // 线程1分配到CPU核心6
+    std::thread t2(thread_function, 2, 7);  // 线程2分配到CPU核心7
 
     t1.join();
     t2.join();
